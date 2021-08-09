@@ -1,0 +1,4 @@
+add 4 four
+subtract eight two
+multiply seven 6
+divide 6 0
