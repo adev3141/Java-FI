@@ -4,15 +4,15 @@ import java.util.*;
 
 public class ShoppingCart {
 
-    private List<Product> products = new ArrayList<>();
+    private List<LineItem> lineItems = new ArrayList<>();
 
-    public void addProduct(Product product){
-        products.add(product);
+    public void addProduct(LineItem lineItem){
+        lineItems.add(lineItem);
     }
 
     public int getTotalCost(){
-        return products.stream()
-                .mapToInt(Product::getPrice)
+        return lineItems.stream()
+                .mapToInt(LineItem::getPrice)
                 .sum();
     }
 }

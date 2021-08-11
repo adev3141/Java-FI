@@ -1,10 +1,11 @@
 package com.company.ObjOrientationDemo;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class Catalogue {
 
-    private static Map<String,Product> productMap = new Hashmap;
+    private static Map<String,Product> productMap = new HashMap<>();
 
     static{
         productMap.put("Electric ToothBrush", new Product("Electric ToothBrush", 69));
