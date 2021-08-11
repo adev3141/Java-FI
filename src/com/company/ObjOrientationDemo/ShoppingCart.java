@@ -6,7 +6,7 @@ public class ShoppingCart {
 
     private List<LineItem> lineItems = new ArrayList<>();
 
-    public void addProduct(LineItem lineItem){
+    public void addLineItem(LineItem lineItem){
         lineItems.add(lineItem);
     }
 

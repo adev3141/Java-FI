@@ -16,7 +16,6 @@ public class IteratingHashSet {
         Iterator<String> i = employeeName.iterator();
 
         while(i.hasNext()){
-            System.out.println(i.next()); //trying to duplicate foreach loop in python 
         }
     }
 

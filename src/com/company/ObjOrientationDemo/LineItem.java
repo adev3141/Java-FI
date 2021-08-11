@@ -23,7 +23,6 @@ public class LineItem {
     }
 
     public int getPrice() {
-        Product product = null;
         return product.getPrice() * quantity;
     }
 }
