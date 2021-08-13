@@ -10,6 +10,20 @@ public class LineItem {
         this.quantity = quantity;
     }
 
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+
+    public LineItem(LineItem li){
+
+        this(li.product, li.quantity);
+    }
+
     public Product getProduct(){
         return this.product;
     }
