@@ -1,4 +1,4 @@
 add 4 four
-subtract eight two
+subtract eight two extra
 multiply seven 6
-divide 6 0
+divide 60 10
